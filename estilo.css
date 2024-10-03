@@ -64,45 +64,45 @@ footer {
 /* Estilos para pantallas pequeñas (dispositivos móviles) */
 @media (max-width: 600px) {
     nav ul li {
-        display: block; /* Cambia a bloque para apilar los elementos */
-        margin: 10px 0; /* Espacio vertical entre los elementos */
+        display: block; 
+        margin: 10px 0; 
     }
 
     section {
-        padding: 15px; /* Menos padding en dispositivos móviles */
+        padding: 15px; 
     }
 }
 
 /* Estilos para pantallas medianas (tabletas) */
 @media (min-width: 601px) and (max-width: 900px) {
     nav ul li {
-        display: inline; /* Mantiene el menú en línea */
-        margin: 0 10px; /* Menor margen horizontal */
+        display: inline; 
+        margin: 0 10px; 
     }
 
     main {
-        padding: 15px; /* Menos padding en tabletas */
+        padding: 15px; 
     }
 
     section {
-        margin: 15px 0; /* Menor margen en secciones */
-        padding: 20px; /* Padding igual */
+        margin: 15px 0; 
+        padding: 20px; 
     }
 }
 
 /* Estilos para pantallas grandes (computadoras) */
 @media (min-width: 901px) {
     nav ul li {
-        display: inline; /* Mantiene el menú en línea */
-        margin: 0 15px; /* Margen normal */
+        display: inline; 
+        margin: 0 15px; 
     }
 
     main {
-        padding: 20px; /* Padding normal */
+        padding: 20px; 
     }
 
     section {
-        margin: 20px 0; /* Margen normal en secciones */
-        padding: 20px; /* Padding normal */
+        margin: 20px 0; 
+        padding: 20px; 
     }
 }
